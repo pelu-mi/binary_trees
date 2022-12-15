@@ -5,7 +5,7 @@
  * @tree: pointer to the tree
  * @func: pointer to function to be called on each element of a tree
  */
-void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
+void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
 	/* Check if tree and func exist */
 	if (!tree || !func)
