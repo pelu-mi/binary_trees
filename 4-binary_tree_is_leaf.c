@@ -14,7 +14,8 @@ int binary_tree_is_leaf(const binary_tree_t *node)
 		return (1);
 	else
 		return (0);
-	/* One Line solution 
-	return ((!node || node->left || node->right) ? 0 : 1);
-	*/
+	/*
+	 * One Line solution
+	 * return ((!node || node->left || node->right) ? 0 : 1);
+	 */
 }
